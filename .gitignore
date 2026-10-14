@@ -1,0 +1,20 @@
+# vendor firmware, installers, manuals (not ours to redistribute)
+firmware-v113/
+manual/
+*.pdf
+*.bin
+*.elf
+*.exe
+*.dmg
+# toolchain, Ghidra project, build outputs, full disassembly dump
+build/tc/
+build/out/
+analysis/ghidra-project/
+analysis/mapped-disassembly.asm
+squid-interactive-manual.html
+*.o
+# raw decompiler/disassembler dumps of vendor code (kept locally)
+analysis/*.txt
+analysis/*.asm
+analysis/*.json
+analysis/stacking-speed-design.md
